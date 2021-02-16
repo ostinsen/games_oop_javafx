@@ -1,13 +1,15 @@
 package ru.job4j.chess;
 
-import org.junit.Ignore;
+
 import org.junit.Test;
 import ru.job4j.chess.firuges.Cell;
 import ru.job4j.chess.firuges.black.BishopBlack;
 
+import static org.hamcrest.CoreMatchers.is;
+
 public class LogicTest {
 
-    @Ignore
+
     @Test
     public void move()
             throws FigureNotFoundException, OccupiedCellException, ImpossibleMoveException {
